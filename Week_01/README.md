@@ -5,8 +5,8 @@
     - [旋转数组](./rotate.java)
     - [合并两个有序链表](./mergeTwoLists.java)
     - [合并两个有序数组](./merge.java)
-    - [两数之和]()
-    - [移动零]()
+    - [两数之和](./twoSum.java)
+    - [移动零](./moveZeroes.java)
 
 
 
