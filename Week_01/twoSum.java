@@ -4,7 +4,8 @@ class Solution {
         int n = nums.length;
 
         for(int i = 0; i < n ; i++){
-            for(int j = i+1; i < n ; i++){
+        //第二个循环也写错了，写成了i
+            for(int j = i+1; j < n ; j++){
                 if (nums[i] + nums[j] == target) {
                     return new int[]{i, j}; //这种写法不熟悉，需要记住
                 } 
