@@ -4,7 +4,7 @@
     - [删除排序数组中的重复项](./removeDuplicates.java)
     - [旋转数组](./rotate.java)
     - [合并两个有序链表](./mergeTwoLists.java)
-    - [合并两个有序数组]()
+    - [合并两个有序数组](./merge.java)
     - [两数之和]()
     - [移动零]()
     - [加一]()
