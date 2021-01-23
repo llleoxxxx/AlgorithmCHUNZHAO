@@ -3,7 +3,7 @@
 - BASIC
     - [删除排序数组中的重复项](./removeDuplicates.java)
     - [旋转数组](./rotate.java)
-    - [合并两个有序链表]()
+    - [合并两个有序链表](./mergeTwoLists.java)
     - [合并两个有序数组]()
     - [两数之和]()
     - [移动零]()
