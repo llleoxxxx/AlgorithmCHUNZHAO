@@ -11,8 +11,11 @@ private final Comparator<? super E> comparator;
 transient int modCount = 0; // non-private to simplify nested class access
 ```
 
-其中插入元素的操作，和queue类似，一个报异常，一个返回特殊值。
-从实现上看，add调用了offer。
-还有其他特殊的细节需要再看。
+-其中插入元素的操作，和queue类似，一个报异常，一个返回特殊值。
+从实现上看，add调用了offer
 
-多了扩容的方法:grow()来实现扩容的效果。
+
+-其中删除元素的操作，和queue类似，一个报异常，一个返回特殊值。
+从实现上看，remove调用了poll
+
+-多了扩容的方法:grow()来实现扩容的效果。
