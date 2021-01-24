@@ -1,5 +1,4 @@
-
-'''
+```
 // 初始化元素
 private static final int DEFAULT_INITIAL_CAPACITY = 11;
 // 实际用来保存的数组
@@ -10,7 +9,7 @@ private int size = 0;
 private final Comparator<? super E> comparator;
 // 修改次数是多少
 transient int modCount = 0; // non-private to simplify nested class access
-'''
+```
 
 其中插入元素的操作，和queue类似，一个报异常，一个返回特殊值。
 从实现上看，add调用了offer。
