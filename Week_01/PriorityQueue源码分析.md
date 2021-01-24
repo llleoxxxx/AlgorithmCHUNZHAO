@@ -23,7 +23,7 @@ transient int modCount = 0; // non-private to simplify nested class access
 从实现上看，element调用了peek
 
 
--多了扩容的方法:grow()来实现扩容的效果。
+-多了扩容的方法:grow()来实现扩容的效果，这一点区别挺大的。
 
 
 -至于实现priority的方法。还没有看懂，继续在看
