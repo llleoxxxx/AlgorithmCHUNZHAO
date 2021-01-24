@@ -14,7 +14,10 @@
 -作业一:用 add first 或 add last 这套新的 API 改写 Deque 的代码。
     -[作业1改写的代码](./deque_new.java)
     
--作业二:因为java很早之前学的，忘了很多，读起来比较慢，之后会补充，改为下面的知识点总结和整理～
+-作业二:分析 Queue 和 Priority Queue 的源码。
+    -[分析Queue的源码](./)
+    -[分析Priority Queue的源码](./)
+
 
 ### [课堂笔记总结]
 -有一段 三个for循环嵌套，分别减1减2减3的，需要再重复看一遍
