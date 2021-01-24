@@ -24,3 +24,6 @@ transient int modCount = 0; // non-private to simplify nested class access
 
 
 -多了扩容的方法:grow()来实现扩容的效果。
+
+
+-至于实现priority的方法。还没有看懂，继续在看
