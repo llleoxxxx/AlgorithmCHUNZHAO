@@ -1,21 +1,3 @@
-/*
-// Definition for a Node.
-class Node {
-    public int val;
-    public List<Node> children;
-
-    public Node() {}
-
-    public Node(int _val) {
-        val = _val;
-    }
-
-    public Node(int _val, List<Node> _children) {
-        val = _val;
-        children = _children;
-    }
-};
-*/
 
 /*
 // Definition for a Node.
@@ -57,15 +39,13 @@ class Node {
 
 class Solution {
 
-    public List<List<Integer>> levelOrder(Node root) {    
-        //整体思路是用 queue 保存队列， list保存具体数值  
+    public List<List<Integer>> levelOrder(Node root) {      
         List<List<Integer>> result = new ArrayList<>();
         if (root == null) return result;
         Queue<Node> queue = new LinkedList<>();
         queue.add(root);
-
+        
         while (!queue.isEmpty()) {
-            //这里需要为每一层加入一个新arraylist
             List<Integer> level = new ArrayList<>();
             int size = queue.size();
             for (int i = 0; i < size; i++) {
@@ -83,8 +63,7 @@ class Solution {
 
 
 
-
-
+//下面是错误的代码
 //尝试用递归写，失败了
 
 class Solution {
