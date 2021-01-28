@@ -18,6 +18,9 @@ class Node {
 */
 
 
+//后序遍历
+//https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/
+
 class Solution {
     //这里应该是先申明一个list
     List<Integer> result_arr ;
