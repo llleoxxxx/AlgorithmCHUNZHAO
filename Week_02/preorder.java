@@ -17,6 +17,8 @@ class Node {
 };
 */
 
+//前序遍历
+//https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/
 
 class Solution {
     //这里应该是先申明一个list
