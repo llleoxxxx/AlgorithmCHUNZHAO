@@ -18,7 +18,7 @@ class Node {
 */
 
 
-//后序遍历
+//N叉树后序遍历(N叉树应该没有中序遍历)
 //https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/
 
 class Solution {
