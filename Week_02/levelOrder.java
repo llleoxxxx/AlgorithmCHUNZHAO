@@ -36,25 +36,48 @@ class Node {
 };
 */
 
+/*
+// Definition for a Node.
+class Node {
+    public int val;
+    public List<Node> children;
+
+    public Node() {}
+
+    public Node(int _val) {
+        val = _val;
+    }
+
+    public Node(int _val, List<Node> _children) {
+        val = _val;
+        children = _children;
+    }
+};
+*/
+
 class Solution {
-    public List<List<Integer>> levelOrder(Node root) {
-        
-        //用queue来存储节点，用list来存储数值
-        List<Integer> values = new ArrayList<>();
+
+    public List<List<Integer>> levelOrder(Node root) {    
+        //整体思路是用 queue 保存队列， list保存具体数值  
+        List<List<Integer>> result = new ArrayList<>();
+        if (root == null) return result;
         Queue<Node> queue = new LinkedList<>();
         queue.add(root);
 
         while (!queue.isEmpty()) {
-            Node nextNode = queue.remove();
-            values.add(nextNode.val);
-
-        for (Node child : nextNode.children) {
-        queue.add(child);
+            //这里需要为每一层加入一个新arraylist
+            List<Integer> level = new ArrayList<>();
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                Node node = queue.poll();
+                level.add(node.val);
+                queue.addAll(node.children);
+            }
+            result.add(level);
         }
-        }
-
+        return result;
+    }
 }
-
 
 
 
