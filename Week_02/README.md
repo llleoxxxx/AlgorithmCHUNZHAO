@@ -10,7 +10,7 @@
     - [二叉树的中序遍历](./inorderTraversal.java)
     - [二叉树的前序遍历](./preorderTraversal.java)
     - [N叉树的层序遍历](./levelOrder.java)
-    - [丑数](./choushus.java)
+    - [丑数](./choushu.java)
 
 -备注【需要再重新刷一遍】
 
