@@ -9,8 +9,8 @@
     - [柠檬水找零](./lemonadeChange.java)
     - [买卖股票的最佳时机II](./maxProfit.java)
     - [分发饼干](./findContentChildren.java)
-    - [N叉树的层序遍历](./levelOrder.java)
-    - [丑数](./choushu.java)
+    - [Pow(x, n)](./quickMul.java)
+    - [子集](./subsets.java)
 
 -备注【需要再重新刷一遍】
 
