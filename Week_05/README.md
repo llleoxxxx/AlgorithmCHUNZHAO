@@ -5,12 +5,12 @@
 # 第五周学习笔记
 ## [总结:作业完成情况]
 - BASIC
-    - [N叉树的后序遍历](./postorder.java)
-    - [N叉树的前序遍历](./preorder.java)
-    - [二叉树的中序遍历](./inorderTraversal.java)
-    - [二叉树的前序遍历](./preorderTraversal.java)
-    - [N叉树的层序遍历](./levelOrder.java)
-    - [丑数](./choushu.java)
+    - [爬楼梯](./climbStairs.java)
+    - [位1的个数](./hammingWeight.java)
+    - [2的幂](./isPowerOfTwo.java)
+    - [颠倒二进制位](./reverseBits.java)
+    - [实现Trie(前缀树)](./TrieNode.java)
+    - [省份数量](./UnionFind.java)
 
 -备注【需要再重新刷一遍】
 
@@ -20,10 +20,6 @@
     - 树的出现是因为人类本身的需求
     - 链表是一维结构
     - 树是二维结构
-    - 升维》为了加速，比如调表就是升维
-    - 二维的数据结构 :常见的是树和图 (区别有没有环)
-    - 从链表展开去联想:假如有链表有多个next的话，就成了树 
-    - 现实中用的最多的是二叉树 
 
     
     
